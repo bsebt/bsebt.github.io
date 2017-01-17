@@ -78,10 +78,20 @@
 .col-lg-offset-1-2{
   margin-left: 4.165%;
 }
+.col-lg-5{
+  margin-top: 8px;
+}
+.col-lg-pull-1-2 {
+  right: 7.166665%;
+}
 }
 @media (max-width: 1200px) {
 .col-sm-offset-11-2{
   margin-left:45.833333335%;
+}
+.marginzero{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 }
 @media(max-width: 768px){
