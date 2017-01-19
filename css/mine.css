@@ -73,13 +73,9 @@ header{
 .section-heading{
   color: red;
 }
-@media(min-height: 300px){
-  .align-center{
-    height: 50%!important;
-    margin-bottom: 20vh!important;
-    margin-top: 10vh!important;
-
-  }
+.align-center{
+  vertical-align: middle;
+  padding-top: 25vh;
 }
 
 .fa-phone {
@@ -140,27 +136,15 @@ header{
 .modal h3{
   color: blue;
 }
-/*#backback{*/
-  /*background-image: url(../img/showOff1.jpg);*/
-  /*width: 100vw!important;
-  opacity: 0.5;
-  float: left;
-
-}*/
-#portfolio {
-  display: block;
-  position: relative;
-}
-
-#portfolio::after {
-  content: "";
-  background-color: darkblue;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
+#portfolio{
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/showOff1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 #projone{
   margin-top: 20px;
@@ -196,4 +180,10 @@ header{
 #whiteback{
   /*background-color: white;*/
   color: #FFF;
+}
+ol li {
+  margin-bottom: 10px;
+}
+ul li {
+  margin-bottom: 10px;
 }
