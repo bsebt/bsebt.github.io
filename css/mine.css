@@ -67,7 +67,8 @@ header{
   color: white!important;
 }
 #download{
-  height: 100vh!important;
+  /*height: 100vh!important;*/
+  width: 100%;
   background-color: #179dc4;
 }
 .section-heading{
@@ -132,6 +133,8 @@ header{
   width: 50%;
   margin-right: 25%;
   text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 .modal h3{
   color: blue;
