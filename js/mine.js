@@ -30,3 +30,6 @@ function myfunction1(){
     }
   }
 }
+if (window.width < 500) {
+  $("#padzero").addclass("marginzero paddingzero")
+}
