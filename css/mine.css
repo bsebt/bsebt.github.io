@@ -311,3 +311,17 @@ a:hover{
 .portfolio-modal{
   height: 100vh;
 }
+.modal.fade .modal-dialog {
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+}
+
+.modal.in .modal-dialog {
+  -webkit-transform: scale(1);
+  -webkit-transform: all 0.8 ease-in;
+  -moz--transform: scale(1);
+  -moz-transform: all 0.8 ease-in;
+  -ms-transform: all 0.8 ease-in;
+  -ms--transform: scale(1);
+}
