@@ -273,6 +273,8 @@ a{
 }
 .menumodal{
   background-color: #179dc4;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 #navnav{
   font-size: 1.5em;
