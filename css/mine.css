@@ -190,12 +190,14 @@ ol li {
 ul li {
   margin-bottom: 10px;
 }
-a{
+#knowledge a{
   color: black;
   text-decoration: underline;
 }
 
-
+a:hover{
+  text-decoration: underline!important;
+}
 
 .portfolio-modal .modal-dialog {
   margin: 0;
