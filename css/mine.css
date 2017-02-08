@@ -282,7 +282,7 @@ a{
   font-size: 1.5em;
   vertical-align: bottom;
 }
-#navnav ul li {
+#navnav ul a li {
   padding-bottom: 15px;
   padding-top: 15px;
   list-style-type: none;
@@ -295,9 +295,13 @@ a{
 #modmod{
   padding-top: 25%;
 }
-#navnav ul li a{
+#navnav ul a{
   color: white!important;
   text-decoration: none;
+}
+#navnav ul a:hover{
+  color: white!important;
+  text-decoration: underline;
 }
 #navnav ul {
   padding: 0px;
