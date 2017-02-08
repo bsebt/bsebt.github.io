@@ -272,9 +272,11 @@ a{
   display: none;
 }
 .menumodal{
-  background-color: #179dc4;
+  /*background-color: #c3efff;*/
+  background: rgba(250, 250, 250, 0.1);
   padding-left: 0px;
   padding-right: 0px;
+  /*backface-visibility: transparent;*/
 }
 #navnav{
   font-size: 1.5em;
