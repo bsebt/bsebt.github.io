@@ -455,7 +455,10 @@
 </div>
 
     <section class="" id="portfolio">
-        <div class="container">
+        <div class="container-fluid">
+
+            <div class="container">
+
 
               <div class="row">
                   <div class="col-lg-12 text-center">
@@ -469,11 +472,12 @@
                     </div>
                   </div>
               </div>
+            </div>
 
                 <div class="row">
-                <div class="col-lg-6 col-sm-6 picholder open" >
-                  <a data-toggle="modal" href="#projone" class="portfolio-box" data-target="#projone" id="projone1" type="button">
-                        <img src="img/GuitarTabPic.png" class="img-responsive projoneb acpic" alt=""></img>
+                <div class="col-lg-4 col-sm-4 picholder" >
+                  <a data-toggle="modal" href="#projone" class="portfolio-box" data-target="#projone" type="button">
+                        <img src="img/GuitarTabPic.png" class="img-responsive acpic" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -487,9 +491,9 @@
                     </a>
                 </div>
 
-                <div class="col-lg-6 col-sm-6 picholder open" >
-                  <a data-toggle="modal" href="#projtwo" class="portfolio-box" data-target="#projtwo" id="projtwo2" type="button">
-                        <img src="img/proautolanding.png" class="img-responsive projtwob acpic" alt=""></img>
+                <div class="col-lg-4 col-sm-4 picholder" >
+                  <a data-toggle="modal" href="#projtwo" class="portfolio-box" data-target="#projtwo" type="button">
+                        <img src="img/proautolanding.png" class="img-responsive acpic" alt=""></img>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -497,6 +501,21 @@
                                 </div>
                                 <div class="project-name">
                                     Pro Auto Body Inc.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-4 picholder" >
+                  <a data-toggle="modal" href="#projthree" class="portfolio-box" data-target="#projthree" type="button">
+                        <img src="img/convertorPic.png" class="img-responsive acpic" alt=""></img>
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Java Application Development
+                                </div>
+                                <div class="project-name">
+                                    English Representation Converter
                                 </div>
                             </div>
                         </div>
@@ -563,20 +582,18 @@
               </h4>
             </div>
               <div class="panel-body">
-                <p> <h3><strong>Simple Explanation:</strong></h3> Designed and developed a website using wordpress CMS and then ran optimization techniques for better search results.
-                  Designed advertisement and published on Google AdWards Express, facebook, and Instagram later on.</p>
+
+                <p> <h3><strong>Simple Explanation:</strong></h3> <strong>
+                  First thing I wanted to point out is that I am not afraid of doing something I do not know how to do. Self learning is the biggest part of today's life and that is why since November 2016 I have been
+                designing and managing online marketing and search optimization materials for Pro Auto Body Inc.</strong>
                 <p> <h3><strong>Technical Explanation:</strong></h3>
+
                   You might be asking yourself why I'm so proud of a simple website job? Because I have never built any websites before!</br>
                   Before 2016 I could read HTML, CSS, and understood both well. However, I never built a website or wrote a single line
-                  of code regarding websites before. This project was the very first time I designed and developed a website.</br>
+                  of code regarding websites before. This project was the very first time I designed and developed a website.</br><br>
                   First I was trying to make this website use bootstrap, but after making a single page I realized maybe they won't be asking me to manage this website for them later on! So I decided
                   to learn and use the wordpress content management system. In a span of one month, I learned all I could about wordpress, plugins, themes, and made this fully responsive, awesome looking website.</br>
                 </br>
-                <strong>
-                  Last thing I wanted to point out is that I am not afraid of doing something I do not know how to do. Self learning is the biggest part of today's life and that is why since November 2016 I have been
-                designing and managing online marketing and search optimization materials for Pro Auto Body Inc.</strong>
-
-              </br></br>
                   <ul><li>You can find the application in this <a href="http://www.proautobodyinc.net" target="_blank"> Pro Auto Body Inc. link </a></li></ul>
                 </p>
               </div>
@@ -589,6 +606,46 @@
     </div>
   </div>
 </div>
+
+
+<!-- project three Modal -->
+  <div id="projthree" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Java Application development</h4>
+        </div>
+        <div class="modal-body">
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                  English Representation
+              </h4>
+            </div>
+              <div class="panel-body">
+                <p> <h3><strong>Simple Explanation:</strong></h3> This project takes amount of money as input and translate it into English representation.</p>
+                <p> <h3><strong>Technical Explanation:</strong></h3>
+                  <p>This project was build upon a client request. I used java since they had windows and mac computers in their office and there is no security or data storage therefore I thought java application would be an easily updatable platform.
+                  <br>In order to break down the work, I had to use different modules for tens, hundreds, and thousands and then put them all together.
+                <br>The user interface of this application was chosen as simple as possible in order to make it usable for any user. I used java swing library to generate the interface
+              and packaged all libraries at the end in a jar file for running independetly.</p>
+                  <ul><li>You can find the application in this <a href="https://github.com/bsebt/NumbersToLetters" target="_blank">GitHub Link</a></li></ul>
+                </p>
+              </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" target="_blank">Close</button>
+        <a class="btn btn-primary" href="https://github.com/bsebt/NumbersToLetters" target="_blank" style="background-color: blue;">Go to GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
     <section id="contact">
