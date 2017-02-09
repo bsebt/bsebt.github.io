@@ -166,11 +166,14 @@ header{
   maring-right: 15%;
 }
 
+
+
 @media(min-width: 541px ){
   .acpic{
     align-self: center!important;
     align-content: center!important;
     width: 90%;
+    height: 400px;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -327,4 +330,7 @@ a:hover{
 }
 .paddingzero{
   padding: 0px;
+}
+.modal-title{
+  color: black!important;
 }
