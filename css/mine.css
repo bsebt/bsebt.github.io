@@ -165,20 +165,14 @@ header{
   margin-left: 15%;
   maring-right: 15%;
 }
-
-
-
-@media(min-width: 541px ){
-  .acpic{
+.acpic{
     align-self: center!important;
     align-content: center!important;
     width: 90%;
     height: 400px;
     margin-left: 5%;
     margin-right: 5%;
-  }
 }
-
 .picholder{
   padding: 0px;
   margin-top: 20px;
