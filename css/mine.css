@@ -40,9 +40,7 @@ header{
   margin-right: 25%!important;
   width: 50%!important;
   }
-.navbar-collapse.collapse {
-    display: none!important;
-  }
+}
 
 .navbar-nav>li {
     float: none;
@@ -75,7 +73,7 @@ header{
   background-position: center;
 }
 .section-heading{
-  color: red;
+  color: blue;
 }
 .align-center{
   vertical-align: middle;
