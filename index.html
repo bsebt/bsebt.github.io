@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="description" content="Professional portfolio of a Software Engineering student - Behshad Sebthosseini">
   <meta name="author" content="Behshad Sebthosseini">
-
   <meta property="og:title" content="Behshad Sebthosseini - Software Engineer to be" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://www.bsebt.com" />
@@ -19,7 +18,6 @@
   <title>Behshad Sebthosseini - Software Engineering... In progress</title>
 
   <link rel="publisher" href=”http://github.io” />
-
   <link rel="shortcut icon" href="https://maxcdn.icons8.com/iOS7/PNG/25/Programming/system_task-25.png" type="image/x-icon">
   <link rel="icon" href="https://maxcdn.icons8.com/iOS7/PNG/25/Programming/system_task-25.png" type="image/x-icon">
 
@@ -37,7 +35,8 @@
     <!-- Theme & custom CSS -->
     <!-- <link href="css/agency.min.css" rel="stylesheet"> -->
     <link href="css/creative.min.css" rel="stylesheet">
-    <link href="css/mine.min.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link href="css/mine.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,7 +53,8 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header" style="width 50%;">
-                <button type="button" class="navbar-toggle" data-toggle="modal" data-target="#bs-example-navbar-collapse-1">
+              <!-- data-target="#bs-example-navbar-collapse-1" -->
+                <button type="button" class="navbar-toggle dropdown-toggle" data-toggle="dropdown" >
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -62,41 +62,23 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll black-text" href="#page-top">Behshad SH</a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li><a class="page-scroll text-center active" href="#fav"><i class="fa fa-quote-right" aria-hidden="true"></i>  Favorite Quote</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a class="page-scroll text-center" href="#download"><i class="fa fa-paperclip" aria-hidden="true"></i>  Download Resume</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a class="page-scroll text-center" href="#knowledge"><i class="fa fa-flask" aria-hidden="true"></i>  Knowledge and Experience</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a class="page-scroll text-center" href="#portfolio"><i class="fa fa-code-fork" aria-hidden="true"></i>
+  Project Showoff</a></li>
+  <li role="separator" class="divider"></li>
+                  <li><a class="page-scroll text-center" href="#contact"><i class="fa fa-phone" aria-hidden="true"></i>  Contact Me</a></li>
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-    <div class=" portfolio-modal modal fade menumodal" id="bs-example-navbar-collapse-1" aria-hidden="true">
-        <div class=" modal-dialog menumodal">
-            <div class=" modal-content menumodal">
-                <div class=" close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class=" container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2" id="padzero">
-                            <div class="modal-body align-center" id="modmod">
-                              <div id="navnav">
-                                <ul>
-                                    <a class=" page-scroll text-center" href="#fav" data-dismiss="modal"><li>Favorite quote</li></a>
-                                    <a class="page-scroll text-center" href="#download" data-dismiss="modal"><li>Download Resume</li></a>
-                                    <a class="page-scroll text-center" href="#knowledge" data-dismiss="modal"><li>Knowledge and Experience</li></a>
-                                    <a class="page-scroll text-center" href="#portfolio" data-dismiss="modal"><li>Showing Off Projects</li></a>
-                                    <a class="page-scroll text-center" href="#contact" data-dismiss="modal"><li>Get in touch with me</li></a>
-                                </ul>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <header id="fav">
         <div class="header-content">
@@ -110,17 +92,25 @@
     </header>
 
     <section class="" id="download">
-        <div class="container">
+        <div class="container jumbotron">
             <div class="row">
-              <div class="">
-
+              <div class="container">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                  <h2 class="section-heading" style="color: black;">Who is Behshad?</h2>
+                  <h3 class="section-heading" style="color: #0070c9;">Behshad is simple. Started as a swimmer in junior school, learned how to use computers and new technologies faster than anyone around me,...
+                    fast forward to high school I started learning C++ in grade 10, then learned Java in grade 12 and realized the possibilities are endless to make a difference
+                    in the world by making software so I started studying Software Engineering in York University. <br> <br> Now after 4 years of studying, I have discovered that
+                    I want more than just making software. I want to be an entrouproner and discover how to make people's lives better using the knowledge I have.<br>
+                </h3>
+                </div>
+              </div>
+              <p><br></p>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading" style="color: black;">Here is a choice</h2>
+                    <h2 class="section-heading">Here is a choice</h2>
                     <hr class="light">
-                    <p style="color: white;">To see my resume, or read the breakdown below</p>
+                    <p >To see my resume, or read the breakdown below</p>
                 </div>
                 <div class="row container-fluid">
-
                   <div class=" col-xs-12 col-xs-offset-0 col-xs-push-0 col-lg-5  col-lg-push-1 col-lg-offset-1-2 text-center">
                     <a href="resume-website.pdf" class="page-scroll btn btn-default btn-xl sr-button" id="buttonSC" target="_blank">Download my resume</a>
                   </div>
@@ -131,9 +121,6 @@
                     <a href="#knowledge" class="page-scroll btn btn-default btn-xl sr-button" id="buttonSC">Check out what I know!</a>
                   </div>
                 </div>
-
-              </div>
-
             </div>
         </div>
     </section>
@@ -654,7 +641,7 @@
         <div class="container">
               <div class="row">
               <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h1 class="section-heading">Let's Get In Touch!</h1>
+                    <h1 class="section-heading">Contact Information  <i class="fa fa-level-down" aria-hidden="true" style=" color: #0070c9;"></i></h1>
                     <hr class="primary">
                     <h3 style="margin-bottom: 20px;">Impressed? Here are the ways you can reach me!</h3>
                 </div>
@@ -682,7 +669,7 @@
 
 
       <div class="footer container">
-            <p> Made with <span><i class="fa fa-heart text-primary sr-icons" style="color: black;"></i></span> by Behshad SH</p>
+            <p> Made with <span><i class="fa fa-heart text-primary sr-icons" style="color: #0070c9;"></i></span> by Behshad SH</p>
       </div>
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
@@ -698,6 +685,7 @@
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
     <script src="js/creative.min.js"></script>
+    <!-- Custom JavaScript -->
     <script src="js/mine.js"></script>
 
 </body>

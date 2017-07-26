@@ -33,12 +33,21 @@ header{
 .navbar-toggle {
     display: block;
 }
-@media(min-width: 541px){
+/*@media(min-width: 541px){*/
+@media(min-width: 900px){
   #navcenter{
   margin-left: 25%!important;
   margin-right: 25%!important;
   width: 50%!important;
   }
+  /*.dropdown-menu{
+    right: 10%;
+    left: 10%;
+    width: 80%;
+    animation-name: navMenu;
+    animation-duration: 30s;
+    font-size: 1.7em;
+  }*/
 }
 /*#bs-example-navbar-collapse-1{
   background-color: white!important;
@@ -69,7 +78,16 @@ header{
 #download{
   /*height: 100vh!important;*/
   width: 100%;
-  background-color: #179dc4;
+  /*background-color: #179dc4;*/
+  /*background-color: rgba(122, 122, 122, 0.4);*/
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/showOff1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .section-heading{
   color: red;
@@ -112,13 +130,13 @@ header{
 }
 }
 @media (max-width: 1200px) {
-.col-sm-offset-11-2{
-  margin-left:45.833333335%;
-}
-.marginzero{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+  .col-sm-offset-11-2{
+    margin-left:45.833333335%;
+  }
+  .marginzero{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 @media(max-width: 768px){
   .col-xs-offset-11-2{
@@ -126,6 +144,9 @@ header{
   }
   .col-xs-offset-5 {
     margin-left: 41.66666667%;
+  }
+  .dropdown-menu{
+    width: 100%
   }
 }
 .footer {
@@ -188,6 +209,10 @@ ul li {
   margin-bottom: 10px;
 }
 #knowledge a{
+  color: black;
+  /*text-decoration: underline;*/
+}
+#knowledge a h3{
   color: black;
   text-decoration: underline;
 }
@@ -313,7 +338,6 @@ a:hover{
   -moz-transform: scale(0);
   -ms-transform: scale(0);
 }
-
 .modal.in .modal-dialog {
   -webkit-transform: scale(1);
   -webkit-transform: all 0.8 ease-in;
@@ -327,4 +351,24 @@ a:hover{
 }
 .modal-title{
   color: black!important;
+}
+/*.dropdown-menu{
+  position: absolute!important;
+  right: 0px;
+  align-self: flex-end;
+  animation-name: navMenu;
+  animation-duration: 60s;
+  font-size: 1.3em;
+}*/
+@@keyframes navMenu {
+  from {length: 0%;}
+  to {length: 100%;}
+  /*0%   {length: 0%;}
+  25%  {length: 25%;}
+  50%  {length: 50%;}
+  75%  {length: 75%;}
+  100% {length: 100%;}*/
+}
+.dropdown-menu li a{
+  color: #0070c9;
 }
