@@ -71,7 +71,7 @@ header{
 .fa-book{
   color: green!important;
 }
-#buttonSC{
+.buttonSC{
   background-color: blue;
   color: white!important;
 }
@@ -101,7 +101,7 @@ header{
   color: black!important;
 }
 .black-text {
-  color: red!important;
+  color: blue!important;
   transparent: 0.0;
 }
 #seperator {
@@ -371,4 +371,14 @@ a:hover{
 }
 .dropdown-menu li a{
   color: #0070c9;
+}
+.dark{
+  border-color: black;
+}
+#longerDivider{
+  border-color: black;
+  max-width: 50%;
+}
+#contact .container p{
+  color: black;
 }
