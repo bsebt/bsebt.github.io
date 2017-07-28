@@ -72,6 +72,14 @@ header{
   background-size: cover;
   background-position: center;
 }
+#download a:hover{
+  background-color: black;
+  color: white;
+}
+#fav a:hover{
+  background-color: black;
+  color: white;
+}
 .section-heading{
   color: blue;
 }
@@ -340,4 +348,10 @@ a:hover{
 }
 #contact .container p{
   color: black;
+}
+#contact a:hover{
+  font-size: 2.2em;
+}
+.portfolio-box .portfolio-box-caption {
+  background: rgba(0,112,201,0.85);
 }
