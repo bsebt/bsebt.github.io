@@ -1,6 +1,6 @@
 header{
   background:
-    linear-gradient(
+    /*linear-gradient(
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0),
@@ -21,10 +21,16 @@ header{
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0)
-    ),
+    ),*/
     url(../img/DSC05035.jpg);
   background-size: cover;
   background-position: center;
+  color: yellow;
+}
+header h2{
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  box-sizing: content-box;
+  font-size: 40px;
   color: yellow;
 }
 .navbar-header {
@@ -80,6 +86,9 @@ header{
   background-color: black;
   color: white;
 }
+#fav .black-back{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
+}
 .section-heading{
   color: blue;
 }
@@ -107,15 +116,15 @@ header{
   margin: 0px;
 }
 @media(min-width: 1200px){
-.col-lg-offset-1-2{
-  margin-left: 4.165%;
-}
-.col-lg-5{
-  margin-top: 8px;
-}
-.col-lg-pull-1-2 {
-  right: 7.166665%;
-}
+  .col-lg-offset-1-2{
+    margin-left: 4.165%;
+  }
+  .col-lg-5{
+    margin-top: 8px;
+  }
+  .col-lg-pull-1-2 {
+    right: 7.166665%;
+  }
 }
 @media (max-width: 1200px) {
   .col-sm-offset-11-2{
@@ -124,6 +133,9 @@ header{
   .marginzero{
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  header h2{
+  font-size: 30px;
   }
 }
 @media(max-width: 768px){
@@ -177,10 +189,10 @@ header{
 .acpic{
     align-self: center!important;
     align-content: center!important;
-    width: 90%;
-    height: 400px;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 370px;
 }
 .picholder{
   padding: 0px;
