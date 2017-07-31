@@ -1,34 +1,11 @@
-body{
-
-}
-body{
-  background:
-    /*linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.9),
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),*/
-    url(../img/DSC05035.jpg);
-  background-size: cover;
-  background-position: center;
-  color: yellow;
+header{
+  height: 100%;
+  width: 100%;
+   margin-top: 50px;
+   padding: 0;
+   color: white;
+   text-align: center;
+   vertical-align: center;
 }
 header h2{
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -56,24 +33,24 @@ header h2{
   background-color: blue;
   color: white!important;
 }
-#download{
+#download, #portfolio{
   width: 100%;
-  /*background:
+  background:
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../img/showOff1.jpg);
+    url(../img/showOff1.jpg) no-repeat top center fixed;
   background-size: cover;
-  background-position: center;*/
+  background-position: center;
 }
-#download a:hover{
+#download a:hover, #download a:focus, #fav a:hover, #fav a:visited, #fav a:visited, #fav a:active{
   background-color: black;
   color: white;
 }
-#fav a:hover{
-  background-color: black;
+#fav a:focus{
   color: white;
+  background-color: blue;
 }
 #fav .black-back{
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
@@ -148,16 +125,6 @@ header h2{
 }
 .modal h3{
   color: blue;
-}
-#portfolio{
-  /*background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../img/showOff1.jpg);
-  background-size: cover;
-  background-position: center;*/
 }
 #projone{
   margin-top: 20px;
@@ -355,4 +322,9 @@ a:hover{
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background: url(../img/DSC05035.jpg) no-repeat top center fixed;
+  background-size: cover;
+  background-position: center;
+   height: 100%;
+   width: 100%;
 }
