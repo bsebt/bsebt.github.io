@@ -116,12 +116,10 @@ header h2{
   }
 }
 .footer {
-  margin-left: 25%;
-  width: 50%;
-  margin-right: 25%;
   text-align: center;
   margin-top: 0px;
   padding-top: 0px;
+  background-color: white;
 }
 .modal h3{
   color: blue;
