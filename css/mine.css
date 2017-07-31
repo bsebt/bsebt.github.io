@@ -1,31 +1,11 @@
 header{
-  background:
-    /*linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),*/
-    url(../img/DSC05035.jpg);
-  background-size: cover;
-  background-position: center;
-  color: yellow;
+  height: 100%;
+  width: 100%;
+   margin-top: 50px;
+   padding: 0;
+   color: white;
+   text-align: center;
+   vertical-align: center;
 }
 header h2{
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -39,26 +19,12 @@ header h2{
 .navbar-toggle {
     display: block;
 }
-/*@media(min-width: 541px){*/
 @media(min-width: 900px){
   #navcenter{
   margin-left: 25%!important;
   margin-right: 25%!important;
   width: 50%!important;
   }
-}
-
-.navbar-nav>li {
-    float: none;
-}
-.navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: black;
-}
-.navbar-collapse.collapse.in{
-    display: block!important;
-    text-align: center!important;
 }
 .fa-book{
   color: green!important;
@@ -67,24 +33,24 @@ header h2{
   background-color: blue;
   color: white!important;
 }
-#download{
+#download, #portfolio{
   width: 100%;
   background:
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../img/showOff1.jpg);
+    url(../img/showOff1.jpg) no-repeat top center fixed;
   background-size: cover;
   background-position: center;
 }
-#download a:hover{
+#download a:hover, #download a:focus, #fav a:hover, #fav a:visited, #fav a:visited, #fav a:active{
   background-color: black;
   color: white;
 }
-#fav a:hover{
-  background-color: black;
+#fav a:focus{
   color: white;
+  background-color: blue;
 }
 #fav .black-back{
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
@@ -116,15 +82,15 @@ header h2{
   margin: 0px;
 }
 @media(min-width: 1200px){
-  .col-lg-offset-1-2{
-    margin-left: 4.165%;
-  }
-  .col-lg-5{
-    margin-top: 8px;
-  }
-  .col-lg-pull-1-2 {
-    right: 7.166665%;
-  }
+.col-lg-offset-1-2{
+  margin-left: 4.165%;
+}
+.col-lg-5{
+  margin-top: 8px;
+}
+.col-lg-pull-1-2 {
+  right: 7.166665%;
+}
 }
 @media (max-width: 1200px) {
   .col-sm-offset-11-2{
@@ -135,7 +101,7 @@ header h2{
     margin-bottom: 10px;
   }
   header h2{
-  font-size: 30px;
+    font-size: 30px;
   }
 }
 @media(max-width: 768px){
@@ -160,16 +126,6 @@ header h2{
 .modal h3{
   color: blue;
 }
-#portfolio{
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../img/showOff1.jpg);
-  background-size: cover;
-  background-position: center;
-}
 #projone{
   margin-top: 20px;
 }
@@ -178,9 +134,6 @@ header h2{
   color: white;
   border-radius: 5px;
   padding: 5px;
-}
-.img-responsive {
-
 }
 #conpic{
   margin-left: 15%;
@@ -192,7 +145,6 @@ header h2{
     width: 98%;
     margin-left: 1%;
     margin-right: 1%;
-    height: 370px;
 }
 .picholder{
   padding: 0px;
@@ -207,6 +159,9 @@ ol li {
 ul li {
   margin-bottom: 10px;
 }
+#knowledge, #contact{
+  background-color: white;
+}
 #knowledge a{
   color: black;
 }
@@ -214,11 +169,9 @@ ul li {
   color: black;
   text-decoration: underline;
 }
-
 a:hover{
   text-decoration: underline!important;
 }
-
 .portfolio-modal .modal-dialog {
   margin: 0;
   height: 100%;
@@ -349,7 +302,7 @@ a:hover{
   color: black!important;
 }
 .dropdown-menu li a{
-  color: #0070c9;
+  color: blue;
 }
 .dark{
   border-color: black;
@@ -366,4 +319,12 @@ a:hover{
 }
 .portfolio-box .portfolio-box-caption {
   background: rgba(0,112,201,0.85);
+}
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background: url(../img/DSC05035.jpg) no-repeat top center fixed;
+  background-size: cover;
+  background-position: center;
+   height: 100%;
+   width: 100%;
 }
