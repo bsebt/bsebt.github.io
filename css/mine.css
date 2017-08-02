@@ -332,3 +332,8 @@ body {
   height: 100%;
   width: 100%;
 }
+@media screen and (max-width: 800px){
+  body, #download, #portfolio{
+    background-attachment: scroll;
+  }
+}
