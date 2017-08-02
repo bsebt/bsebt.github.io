@@ -43,10 +43,14 @@ header h2{
     url(../img/showOff1.jpg) no-repeat top center fixed;
   background-size: cover;
   background-position: center;
+  /*height: 110%;*/
 }
 #download a:hover, #download a:focus, #fav a:hover, #fav a:visited, #fav a:visited, #fav a:active{
   background-color: black;
   color: white;
+}
+#download ul li{
+  list-style: none;
 }
 #fav a:focus{
   color: white;
